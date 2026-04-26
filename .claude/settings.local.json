@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm list *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3001/api/context)",
+      "Bash(pkill -f \"node server/index.js\")",
+      "Bash(curl -s http://localhost:3001/api/brain/taste)",
+      "Bash(curl *)",
+      "Bash(npx eslint *)",
+      "Bash(npm install *)",
+      "Bash(pkill -f \"node server/index.js\" pkill -f \"vite\" sleep 2 lsof -ti:3000,3001)",
+      "Bash(xargs kill *)",
+      "Bash(pkill -f \"node server/index.js\" pkill -f \"vite\" sleep 2 npm run dev)",
+      "Bash(node --check server/index.js)",
+      "Bash(node server/index.js)",
+      "Bash(wget *)",
+      "Bash(node *)",
+      "Bash(lsof *)",
+      "Bash(pkill -f \"node server\" pkill -f \"vite\" sleep 2 lsof -ti:3000,3001)",
+      "Bash(pkill -f \"node server\")",
+      "Bash(pkill -9 -f \"node server\" pkill -9 -f \"vite\" sleep 2 lsof -ti:3000,3001)",
+      "Bash(pkill -9 -f \"node\")",
+      "Bash(pkill -9 -f \"vite\")",
+      "Bash(xxd)",
+      "Bash(npx playwright *)",
+      "Bash(sqlite3 --version)",
+      "Bash('/Applications/Google Chrome.app/Contents/MacOS/Google Chrome' --remote-debugging-port=9222 '--user-data-dir=__TRACKED_VAR__/Library/Application Support/Google/Chrome/Profile 1')",
+      "Bash(pkill -f \"node.*server/index\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); [print\\(f'{s[\\\\\"id\\\\\"]} {s[\\\\\"name\\\\\"]} fee:{s[\\\\\"fee\\\\\"]}'\\) for s in d.get\\('result',{}\\).get\\('songs',[]\\)[:10]]\")",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); [print\\(f'{s[\\\\\"id\\\\\"]} {s[\\\\\"name\\\\\"]} fee:{s[\\\\\"fee\\\\\"]}'\\) for s in d.get\\('result',{}\\).get\\('songs',[]\\)[:15]]\")",
+      "Bash(git config *)",
+      "Bash(gh auth *)",
+      "Bash(brew list *)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
